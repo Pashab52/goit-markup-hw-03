@@ -1,0 +1,257 @@
+:root {
+
+    /* Fonts */
+
+--prim-font:'Roboto', sans-serif;
+--logo-font: 'Raleway', sans-serif;
+
+    /* Text colors */
+
+--prim-txt-color: #434455;
+--light-txt-color: #FFFFFF;
+--title-txt-color: #2e2f42;
+--logo-head-color: #2e2f42;
+--logo-foot-color: #F4F4FD;
+--brand-color: #4D5AE5;
+--footer-txt-color: #E7E9FC;
+--hover-link-color:#404BBF;
+
+
+/* BG colors */
+
+--prim-bg-color: #ffffff;
+--dark-bg-color: #2E2F42;
+--light-bg-color: #F4F4FD;
+--prim-btn-bg-color: #4D5AE5;
+--sec-btn-bg-color: #E7E9FC;
+--hover-btn-bg-color: #404BBF;
+
+}
+   
+
+body {
+font-family: var(--prim-font);
+color: var(--prim-txt-color);
+background-color: var(--prim-bg-color);
+letter-spacing: 0.02em;
+line-height: calc(24 / 16);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.title {
+    font-size: 36px;
+    line-height: calc(40 / 36);
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--title-txt-color);
+}
+
+/* Header */
+
+
+.logo-link {
+    color: var(--brand-color);
+    font-family: var(--logo-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+}
+
+.logo-clr {
+    color: var(--logo-head-color);
+}
+
+/* .menu {}
+.menu-list {}
+.list {}
+.menu-item {}
+.link {} */
+
+.menu-link {
+    font-weight: 500;
+    color: var(--title-txt-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+color: var(--hover-link-color);
+}
+
+.current {
+    color: var(--hover-link-color);
+}
+
+/* .contacts {}
+.contacts-list {}
+.contacts-item {} */
+
+.contacts-link {
+    font-style: normal;
+    color: inherit;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--hover-link-color);
+}
+
+
+/* Main */
+
+    /* Hero */
+
+.hero {
+    background-color: var(--dark-bg-color);
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: calc(60 / 56);
+    text-align: center;
+    color: var(--light-txt-color);
+}
+
+.btn {
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: inherit;  
+    /* line-height ніби працює, але не дуже розумію звідки воно наслідується, бо в ДЕВТУЛЗ в боді - перекреслене  */
+    letter-spacing: 0.04em;
+    color: var(--light-txt-color);
+    background-color: var(--prim-btn-bg-color);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--hover-btn-bg-color);
+}
+
+    /*Features*/
+
+/* .features {}
+.features-list {}
+.features-item {} */
+
+.features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    color: var(--title-txt-color)
+}
+
+/* .features-text {} */
+
+
+    /* What are we doing */
+
+/* .we-do {}
+.we-do-title {}
+.we-do-list {}
+.we-do-item {}
+.we-do-img {} */
+
+    /* Team */
+
+.team {
+    background: var(--light-bg-color)
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    text-align: center;
+     color: var(--title-txt-color)
+}
+
+/* .team-list {
+} */
+
+.team-item {
+    background-color: var(--prim-bg-color);
+}
+/* .team-img {}  */
+
+.team-text {
+    text-align: center;
+}
+
+    /* Footer */
+
+.page-footer {
+    background-color: var(--dark-bg-color);
+}
+
+.ft-logo-clr {
+    color: var(--logo-foot-color);
+}
+
+.page-footer-text {
+    color: var(--footer-txt-color)
+}
+
+
+
+
+/* Portfolio */
+
+
+/* Main */
+
+.portfolio {}
+
+.filter-list {}
+
+.filter-item {}
+
+.port-btn {
+    color: var(--brand-color);
+    background-color: var(--sec-btn-bg-color);
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.port-btn:hover,
+.port-btn:focus {
+    color: var(--light-txt-color);
+}
+
+
+/* .portfolio-list {}
+.portfolio-item {}
+.portfolio-img {} */
+
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    color: var(--title-txt-color)
+}
+
+/* .portfolio-text {} */
+
+
