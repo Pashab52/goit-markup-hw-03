@@ -37,6 +37,15 @@ letter-spacing: 0.02em;
 line-height: calc(24 / 16);
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -67,8 +76,27 @@ line-height: calc(24 / 16);
     color: var(--title-txt-color);
 }
 
-/* Header */
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
 
+/**
+  |============================
+  | Header
+  |============================
+*/
+.head-flex {
+    display: flex;
+    align-items:center;
+
+
+}
 
 .logo-link {
     color: var(--brand-color);
@@ -76,17 +104,29 @@ line-height: calc(24 / 16);
     font-weight: 800;
     font-size: 18px;
     line-height: calc(24 / 18);
+    margin-right: 76px;
 }
 
 .logo-clr {
     color: var(--logo-head-color);
 }
 
-/* .menu {}
-.menu-list {}
+.menu {
+   margin-right: 332px; 
+   width: 261px;
+}
+.menu-list {
+    display: flex;
+    gap: 40px;
+    /* justify-content: space-between; */
+}
+
+
+
+
 .list {}
 .menu-item {}
-.link {} */
+.link {}
 
 .menu-link {
     font-weight: 500;
@@ -102,9 +142,13 @@ color: var(--hover-link-color);
     color: var(--hover-link-color);
 }
 
-/* .contacts {}
-.contacts-list {}
-.contacts-item {} */
+.contacts {
+    
+}
+.contacts-list {
+    display: flex;
+}
+.contacts-item {}
 
 .contacts-link {
     font-style: normal;
@@ -115,6 +159,9 @@ color: var(--hover-link-color);
 .contacts-link:focus {
     color: var(--hover-link-color);
 }
+
+
+
 
 
 /* Main */
@@ -222,11 +269,11 @@ color: var(--hover-link-color);
 
 /* Main */
 
-.portfolio {}
+/* .portfolio {}
 
 .filter-list {}
 
-.filter-item {}
+.filter-item {} */
 
 .port-btn {
     color: var(--brand-color);
