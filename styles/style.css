@@ -76,6 +76,11 @@ h1, h2, h3, p {
     color: var(--title-txt-color);
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .container {
     max-width: 1158px;
     margin-left: auto;
@@ -130,9 +135,9 @@ h1, h2, h3, p {
 
 
 
-.list {}
+/* .list {}
 .menu-item {}
-.link {}
+.link {} */
 
 .menu-link {
     display: block;
@@ -152,7 +157,7 @@ color: var(--hover-link-color);
 
 /* .contacts { */
     
-}
+
 .contacts-list {
     display: flex;
     gap: 40px;
@@ -162,7 +167,7 @@ color: var(--hover-link-color);
 }
 /* .contacts-item { */
 
-}
+
 
 .contacts-link {
     display: block;
