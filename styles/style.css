@@ -278,7 +278,7 @@ color: var(--hover-link-color);
     gap: 24px;
 }
 .we-do-item {
-    flex-basis: calc((100%-24px*2)/3);
+    flex-basis: calc( (100% - 24px * 2) / 3 ) ;
 }
 /* .we-do-img {} */
 
@@ -305,7 +305,7 @@ color: var(--hover-link-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--prim-bg-color);
-    flex-basis: calc((100%-24px*3)/4);
+    flex-basis: calc( ( 100% - 24px * 3 ) /4 );
 }
 .team-img {
     margin-bottom: 32px;
@@ -359,10 +359,10 @@ color: var(--hover-link-color);
 /* .portfolio {} */
 
 .filter-list {
-display: flex;
-gap: 24px;
-justify-content: center;
-margin-bottom: 72px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
 
 }
 
@@ -388,13 +388,14 @@ margin-bottom: 72px;
 
 
 .portfolio-list {
-display: flex;
-flex-wrap: wrap;
-gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    
 }
 
 .portfolio-item {
-flex-basis: calc((100%-24px*2)/3);
+    flex-basis: calc( ( 100% - 24px * 2 ) / 3 );
 
 }
 
@@ -412,9 +413,9 @@ flex-basis: calc((100%-24px*2)/3);
 /* .portfolio-text {} */
 
 .portfolio-wrapper {
-border-right: 1px solid var(--footer-txt-color);
-border-bottom: 1px solid var(--footer-txt-color);
-border-left: 1px solid var(--footer-txt-color);
-padding: 32px 0 32px 16px;
+    border-right: 1px solid var(--footer-txt-color);
+    border-bottom: 1px solid var(--footer-txt-color);
+    border-left: 1px solid var(--footer-txt-color);
+    padding: 32px 0 32px 16px;
 
 }
