@@ -237,9 +237,9 @@ color: var(--hover-link-color);
       |============================
     */
 
-.features {
+/* .features {
     background-color: tomato;
-}
+} */
 
 .features-list {
     display: flex;
@@ -394,7 +394,7 @@ gap: 24px;
 }
 
 .portfolio-item {
-flex-basis: 360px;
+flex-basis: calc((100%-24px*2)/3);
 
 }
 
