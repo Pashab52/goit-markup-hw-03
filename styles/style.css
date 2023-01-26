@@ -330,7 +330,7 @@ color: var(--hover-link-color);
     line-height: calc(24 / 20);
     text-align: center;
     color: var(--title-txt-color);
-    /* margin-bottom: 8px; */
+    margin-bottom: 8px;
 }
 .team-text {
     text-align: center;
